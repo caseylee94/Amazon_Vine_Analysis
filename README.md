@@ -22,4 +22,6 @@ The data set for this analysis originally had over 3 million recorded reviews. T
 3. Review ID, Customer ID, Product ID, Product Parent, and Review Data
 4. Review ID, Star Rating, Helpful Votes, Total Votes, Vine, Verified Purchase
 
-The fourth table is labled as the "Vine Table" and is the one that was used for the analysis of the 5 star reviews based on if the product was reviewed by a vine member or not.
+The fourth table is referenced as the Vine Table and is the one that was used for the analysis of the 5 star reviews based on if the product was reviewed by a vine member or not. The Vine Table was first reduced to only reviews where there were 20 or more total votes. The data was filtered again for where the helpful votes percentage is greater than 50%. The table was then split into two tables of vine members and non members.
+
+* First Analysis Question: How many Vine reviews and non-Vine reviews were there?
