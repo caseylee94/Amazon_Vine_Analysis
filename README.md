@@ -25,3 +25,13 @@ The data set for this analysis originally had over 3 million recorded reviews. T
 The fourth table is referenced as the Vine Table and is the one that was used for the analysis of the 5 star reviews based on if the product was reviewed by a vine member or not. The Vine Table was first reduced to only reviews where there were 20 or more total votes. The data was filtered again for where the helpful votes percentage is greater than 50%. The table was then split into two tables of vine members and non members.
 
 * First Analysis Question: How many Vine reviews and non-Vine reviews were there?
+
+![total_vine_reviews.png](Resources/total_vine_reviews.png)
+*Figure 1: Screenshot from Google colab showing the vine review dataframe and total count of reviews*
+
+The total number of Vine members leaving reviews is 613. This is a very small percentage of the total number of reviews, which is over 65,000.
+
+![total_nonvine_reviews.png)(Resources/total_nonvine_reviews.png)
+*Figure 2: Screenshot from Google colab showing the non-vine member reviews dataframe and total count*
+
+The total number of non-Vine members leaving reviews is 64,968. This is almost the entire data set of reviews! Just in this preliminary analysis, it is clear that the Vine membership is not a significant driver in what leads customers to leave a review.
