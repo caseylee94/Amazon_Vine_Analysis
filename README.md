@@ -35,3 +35,16 @@ The total number of Vine members leaving reviews is 613. This is a very small pe
 *Figure 2: Screenshot from Google colab showing the non-vine member reviews dataframe and total count*
 
 The total number of non-Vine members leaving reviews is 64,968. This is almost the entire data set of reviews! Just in this preliminary analysis, it is clear that the Vine membership is not a significant driver in what leads customers to leave a review.
+
+* Second Analysis Question: How many Vine member and non members reviews were 5 stars?
+
+![five_star_vine_reviews.png](Resources/five_star_vine_reviews.png)
+*Figure 3: Screenshot showing analysis of number of five star reviews for the total reviews by Vine members*
+
+![five_star_nonvine_reviews.png](Resources/five_star_nonvine_reviews.png)
+*Figure 3: Screenshot showing analysis of number of five star reviews for the total reviews by non-Vine members*
+
+The images above show there were 222 5-star reviews from Vine members and 30,543 5-star reviews from non-Vine members. These numbers do not tell us a lot on their own but will be used in the next step of the analysis.
+
+* Third Analysis Question: What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
+
