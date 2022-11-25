@@ -17,9 +17,9 @@ Dataset used for this analysis can be found [here](https://s3.amazonaws.com/amaz
 
 The data set for this analysis originally had over 3 million recorded reviews. The first step is to trim down the dataset into the most useful data to allow for a better analysis. For deliverable one, the data was organzied into four tables and loaded from AWS Relational Databases into pgAdmin as a SQL database. These tables were:
 
-* 1. Customer ID and Customer Count
-* 2. Product ID and Product Title
-* 3. Review ID, Customer ID, Product ID, Product Parent, and Review Data
-* 4 Review ID, Star Rating, Helpful Votes, Total Votes, Vine, Verified Purchase
+1. Customer ID and Customer Count
+2. Product ID and Product Title
+3. Review ID, Customer ID, Product ID, Product Parent, and Review Data
+4. Review ID, Star Rating, Helpful Votes, Total Votes, Vine, Verified Purchase
 
 The fourth table is labled as the "Vine Table" and is the one that was used for the analysis of the 5 star reviews based on if the product was reviewed by a vine member or not.
