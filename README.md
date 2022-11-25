@@ -31,7 +31,7 @@ The fourth table is referenced as the Vine Table and is the one that was used fo
 
 The total number of Vine members leaving reviews is 613. This is a very small percentage of the total number of reviews, which is over 65,000.
 
-![total_nonvine_reviews.png)(Resources/total_nonvine_reviews.png)
+![total_nonvine_reviews.png](Resources/total_nonvine_reviews.png)
 *Figure 2: Screenshot from Google colab showing the non-vine member reviews dataframe and total count*
 
 The total number of non-Vine members leaving reviews is 64,968. This is almost the entire data set of reviews! Just in this preliminary analysis, it is clear that the Vine membership is not a significant driver in what leads customers to leave a review.
