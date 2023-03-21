@@ -1,10 +1,11 @@
 # Amazon_Vine_Analysis
 
+
 ## Overview
 
 The purpose of this project is to analyze Amazon reviews written by members of the paid **Amazon Vine program**, a service that allows manufacturers and publishers to receive reviews of their products and determine if there are any biases between **Vine** members and **Non-Vine** member's reviews. 
 
-Companies will pay a fee to Amazon and may provide free products to Vine members who are then required to publish a review. In order to determine if there is any bias towards favorable reviews from Vine members vs. non-members, we need to identify the percentage of 5 star ratings to total rating. As part of this exercise, we were asked to choose from 50 datasets to extract, transform and load into a dataframe in order to complete our analysis. Throughout this analysis, we use:
+Companies will pay a fee to Amazon and may provide free products to Vine members who are then required to publish a review. In order to determine if there is any bias towards favorable reviews from Vine members vs. non-members, it is necessary to identify the percentage of 5 star ratings to total rating. There were 50 datasets to choose from to extract, transform and load into a dataframe in order to complete our analysis. Throughout this analysis, the following are used:
 
 * `PySpark` to extract the dataset, transform the data, connect to `AWS RDS` instance and load the transformed data into `pgAdmin`.
 * `Google Colaboratory` to import `PySpark` libraries and connect to `Postgres` in order to create `SQL` tables and export the results. 
@@ -42,9 +43,15 @@ The total number of non-Vine members leaving reviews is 64,968. This is almost t
 *Figure 3: Screenshot showing analysis of number of five star reviews for the total reviews by Vine members*
 
 ![five_star_nonvine_reviews.png](Resources/five_star_nonvine_reviews.png)
-*Figure 3: Screenshot showing analysis of number of five star reviews for the total reviews by non-Vine members*
+*Figure 4: Screenshot showing analysis of number of five star reviews for the total reviews by non-Vine members*
 
 The images above show there were 222 5-star reviews from Vine members and 30,543 5-star reviews from non-Vine members. These numbers do not tell us a lot on their own but will be used in the next step of the analysis.
 
 ### Third Analysis Question: What percentage of Vine reviews were 5 stars? What percentage of non-Vine reviews were 5 stars?
 
+![percentage_five_star_reviews.png](Resources/percentage_five_star_reviews.png)
+*Figure 5: Screenshot showing analysis of the percentage of 5-star reviews for each member type*
+
+## Summary
+
+As seen in Figure 5 above, the percentage of Vine member 5-star reviews is 36.22% and the percentage of non-Vine member 5-star reviews is 47.01%. These results are very interesting! I imagine companies that pay people to leave reviews are hoping the reviews will be favorable to them but it turns out the people who are leaving reviews on their own, completely unpaid, are on average higher. From this analysis, it can be drawn that there is actually a negativity bias for reviews in the Vine program; maybe the reviewers are more critical and have higher standards for what they consider a 5-star review to be worth. However, this analysis was only for the Electronics category of Amazon reviews, so further analysis of other categories in this same fashion should be done before any final conclusions are drawn about the Vine program. This Electronics category might not follow the same pattern and could be an outlier in this program.
